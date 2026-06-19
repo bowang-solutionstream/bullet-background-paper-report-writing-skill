@@ -1,10 +1,10 @@
-# BBP Report Writing Skill
+# Bullet Background Paper (BBP) Report Writing Skill
 
-Portable skills for AI assistants that help teams produce concise, evidence-backed reports and review artifacts.
+Portable skills for AI assistants that help teams produce concise, evidence-backed Bullet Background Paper (BBP) reports and review artifacts.
 
 ## What Is BBP?
 
-BBP means bullet background paper: a short write-up that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
+BBP means Bullet Background Paper: a short write-up that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
 
 The BBP style is useful when dense notes need to become precise, scoped, and review-ready.
 
@@ -29,7 +29,7 @@ Use this skill when turning dense notes into:
 Set the repo raw URL once:
 
 ```bash
-BBP_SKILLS_URL="https://raw.githubusercontent.com/<owner>/bbp-report-writing-skill/main"
+BBP_SKILLS_URL="https://raw.githubusercontent.com/<owner>/bullet-background-paper-report-writing-skill/main"
 ```
 
 Replace `<owner>` with the GitHub owner or organization that hosts this repo.
