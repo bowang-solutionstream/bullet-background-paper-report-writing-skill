@@ -27,12 +27,6 @@ Use these instructions when turning dense notes into:
 
 ## Install
 
-Set the raw file URL once:
-
-```bash
-BBP_SKILLS_URL="https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main"
-```
-
 ### Option A: Codex Skill
 
 Install globally for Codex:
@@ -40,10 +34,12 @@ Install globally for Codex:
 ```bash
 mkdir -p ~/.codex/skills/bbp-report-writing/agents
 
-curl -fsSL "$BBP_SKILLS_URL/codex/bbp-report-writing/SKILL.md" \
+curl -fsSL \
+  "https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main/codex/bbp-report-writing/SKILL.md" \
   -o ~/.codex/skills/bbp-report-writing/SKILL.md
 
-curl -fsSL "$BBP_SKILLS_URL/codex/bbp-report-writing/agents/openai.yaml" \
+curl -fsSL \
+  "https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main/codex/bbp-report-writing/agents/openai.yaml" \
   -o ~/.codex/skills/bbp-report-writing/agents/openai.yaml
 ```
 
@@ -58,7 +54,8 @@ Use $bbp-report-writing to turn this evidence into a concise BBP-style report.
 Create a new `CLAUDE.md` file:
 
 ```bash
-curl -fsSL "$BBP_SKILLS_URL/claude/bbp-report-writing.md" \
+curl -fsSL \
+  "https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main/claude/bbp-report-writing.md" \
   -o CLAUDE.md
 ```
 
@@ -67,7 +64,8 @@ Append to an existing `CLAUDE.md` file:
 ```bash
 printf "\n\n" >> CLAUDE.md
 
-curl -fsSL "$BBP_SKILLS_URL/claude/bbp-report-writing.md" \
+curl -fsSL \
+  "https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main/claude/bbp-report-writing.md" \
   >> CLAUDE.md
 ```
 
@@ -76,7 +74,8 @@ In Claude App, you can also open `claude/bbp-report-writing.md` and paste it int
 ### Option C: Preview Before Installing
 
 ```bash
-curl -fsSL "$BBP_SKILLS_URL/claude/bbp-report-writing.md"
+curl -fsSL \
+  "https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main/claude/bbp-report-writing.md"
 ```
 
 ## Public-Safe Content Rule
