@@ -81,3 +81,13 @@ curl -fsSL \
 ## Public-Safe Content Rule
 
 This repo is intended for reusable process guidance only. Do not add credentials, private evidence, private messages, provider payloads, or sensitive project data.
+
+## Disclaimer
+
+This project provides general writing and workflow guidance for AI assistants. Outputs should be reviewed before use, especially for legal, financial, medical, security, or customer-facing decisions.
+
+Do not include credentials, private evidence, private messages, provider payloads, or sensitive project data when using or contributing to this repo.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
