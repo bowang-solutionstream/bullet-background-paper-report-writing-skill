@@ -1,4 +1,4 @@
-# AI Skill Handoff
+# BBP Report Writing Skill
 
 Portable skills for AI assistants that help teams produce concise, evidence-backed reports and review artifacts.
 
@@ -29,7 +29,7 @@ Use this skill when turning dense notes into:
 Set the repo raw URL once:
 
 ```bash
-BBP_SKILLS_URL="https://raw.githubusercontent.com/<owner>/ai-skill-handoff/main"
+BBP_SKILLS_URL="https://raw.githubusercontent.com/<owner>/bbp-report-writing-skill/main"
 ```
 
 Replace `<owner>` with the GitHub owner or organization that hosts this repo.
