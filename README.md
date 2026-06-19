@@ -1,20 +1,21 @@
 # Bullet Background Paper (BBP) Report Writing Skill
 
-Portable skills for AI assistants that help teams produce concise, evidence-backed Bullet Background Paper (BBP) reports and review artifacts.
+Create concise, evidence-backed Bullet Background Paper (BBP) reports with AI assistants. This repo includes a Codex skill and Claude-ready instructions for decision memos, research summaries, incident recaps, provider comparisons, and review-ready Markdown or HTML artifacts.
 
 ## What Is BBP?
 
-BBP means Bullet Background Paper: a short write-up that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
+A Bullet Background Paper is a short, structured write-up that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
 
-The BBP style is useful when dense notes need to become precise, scoped, and review-ready.
+The BBP style is useful when dense notes, research, or investigation findings need to become precise, scoped, and easy to review.
 
-## Included Skills
+## What This Includes
 
-- `bbp-report-writing`: creates or revises BBP-style reports, decision memos, research summaries, incident recaps, provider comparisons, technical investigation summaries, project status artifacts, and HTML/Markdown reports.
+- `codex/bbp-report-writing/`: a Codex skill folder with `SKILL.md` and `openai.yaml`.
+- `claude/bbp-report-writing.md`: a Claude-ready instruction file for Claude Projects, `CLAUDE.md`, or direct chat use.
 
 ## Best Use Cases
 
-Use this skill when turning dense notes into:
+Use these instructions when turning dense notes into:
 
 - decision memos
 - research summaries
@@ -22,17 +23,15 @@ Use this skill when turning dense notes into:
 - provider or vendor comparisons
 - technical investigation summaries
 - project status artifacts
-- HTML or Markdown reports for team review
+- Markdown or HTML reports for team review
 
 ## Install
 
-Set the repo raw URL once:
+Set the raw file URL once:
 
 ```bash
-BBP_SKILLS_URL="https://raw.githubusercontent.com/<owner>/bullet-background-paper-report-writing-skill/main"
+BBP_SKILLS_URL="https://raw.githubusercontent.com/bowang-solutionstream/bullet-background-paper-report-writing-skill/main"
 ```
-
-Replace `<owner>` with the GitHub owner or organization that hosts this repo.
 
 ### Option A: Codex Skill
 
@@ -56,14 +55,14 @@ Use $bbp-report-writing to turn this evidence into a concise BBP-style report.
 
 ### Option B: Claude Project Instructions
 
-New Claude project or repo:
+Create a new `CLAUDE.md` file:
 
 ```bash
 curl -fsSL "$BBP_SKILLS_URL/claude/bbp-report-writing.md" \
   -o CLAUDE.md
 ```
 
-Existing `CLAUDE.md`:
+Append to an existing `CLAUDE.md` file:
 
 ```bash
 printf "\n\n" >> CLAUDE.md
@@ -82,4 +81,4 @@ curl -fsSL "$BBP_SKILLS_URL/claude/bbp-report-writing.md"
 
 ## Public-Safe Content Rule
 
-This repo is intended for reusable process guidance only. Do not add credentials, raw client evidence, private messages, provider payloads, or sensitive project data.
+This repo is intended for reusable process guidance only. Do not add credentials, private evidence, private messages, provider payloads, or sensitive project data.

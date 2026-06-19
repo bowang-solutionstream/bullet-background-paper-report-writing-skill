@@ -1,5 +1,4 @@
 interface:
   display_name: "BBP Report Writing"
-  short_description: "Write precise bullet background papers"
+  short_description: "Write precise Bullet Background Papers"
   default_prompt: "Use $bbp-report-writing to turn this evidence into a concise BBP-style report."
-

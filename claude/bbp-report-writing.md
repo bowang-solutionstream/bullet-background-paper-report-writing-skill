@@ -1,10 +1,10 @@
 # BBP Report Writing
 
-Use these instructions when creating or revising a concise evidence-backed BBP, bullet background paper, decision memo, research summary, incident recap, provider comparison, or HTML/Markdown report.
+Use these instructions when creating or revising a concise evidence-backed BBP, Bullet Background Paper, decision memo, research summary, incident recap, provider comparison, or HTML/Markdown report.
 
 ## What Is BBP?
 
-BBP means bullet background paper: a short evidence paper that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
+BBP means Bullet Background Paper: a short evidence paper that helps a busy reviewer understand the question, facts, caveats, and next decision quickly.
 
 The goal is not to sound polished. The goal is to make the evidence precise, scoped, and easy to review.
 
@@ -82,4 +82,3 @@ Before finalizing, confirm:
 - All numbers are scoped.
 - The main caveat appears before the recommendation.
 - The next decision is clear.
-

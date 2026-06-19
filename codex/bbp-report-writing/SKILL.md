@@ -1,13 +1,13 @@
 ---
 name: bbp-report-writing
-description: Use when creating or revising concise evidence-backed BBP, bullet background paper, decision memo, research summary, investigation artifact, provider comparison, incident recap, or HTML/Markdown report that must be precise, scoped, and review-ready.
+description: Use when creating or revising concise evidence-backed BBP, Bullet Background Paper, decision memo, research summary, investigation artifact, provider comparison, incident recap, or HTML/Markdown report that must be precise, scoped, and review-ready.
 ---
 
 # BBP Report Writing
 
 ## Overview
 
-BBP means bullet background paper: a short evidence paper that lets a busy reviewer understand the question, facts, caveats, and next decision quickly. Use it to turn dense investigation notes into a precise review artifact without adding a teaching layer.
+BBP means Bullet Background Paper: a short evidence paper that lets a busy reviewer understand the question, facts, caveats, and next decision quickly. Use it to turn dense investigation notes into a precise review artifact without adding a teaching layer.
 
 ## Core Rule
 
@@ -47,7 +47,7 @@ Use this menu; do not force every label.
 - Use "inferred" for judgment calls that are not directly proven by evidence.
 - Avoid broad adjectives such as strong, weak, promising, meaningful, or successful unless the threshold is named.
 - Remove process chatter, motivational language, and long interpretation unless the user asks for it.
-- Do not include secrets, raw credentials, private message bodies, sensitive client evidence, or full provider payloads.
+- Do not include secrets, raw credentials, private message bodies, sensitive evidence, or full provider payloads.
 
 ## Recommended Artifact Shape
 
@@ -85,4 +85,3 @@ After drafting, tighten with these checks:
 - Saying "the data shows" without naming the sample and source.
 - Overwriting uncertainty with confidence language.
 - Adding a concept primer by default. Use a separate mentoring skill only when the user asks for knowledge-gap teaching.
-
